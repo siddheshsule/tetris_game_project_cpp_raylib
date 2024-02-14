@@ -1,7 +1,7 @@
 # tetris_game_project_cpp_raylib
 
 Following steps were followed while creating this project
-1) Setuo the Game Loop
+1) Setup the Game Loop
 2) Creating the Grid
 3) Create the Blocks
 4) Move the Blocks
