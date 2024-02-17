@@ -12,9 +12,13 @@ class Block {
         int id;
         std::map<int, std::vector<Position>> cells;
         void Draw();
+        void Move(int rows, int columns);
+        std::vector<Position> GetCellPosition();
     private:
         int cellSize;
         int rotationState;
+        int rowOffset;
+        int columnOffset;
         std::vector<Color> colors;
 };
 
