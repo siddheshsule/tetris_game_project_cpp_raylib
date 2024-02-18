@@ -14,11 +14,15 @@ class Block {
         void Draw();
         void Move(int rows, int columns);
         std::vector<Position> GetCellPosition();
+        void Rotate();
+
+        void UndoRotation();
+
     private:
         int cellSize;
         int rotationState;
         int rowOffset;
-        int columnOffset;
+        int columnOffset;        
         std::vector<Color> colors;
 };
 
