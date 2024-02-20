@@ -1,1 +1,1 @@
-g++ src/main.cpp src/grid.cpp src/colors.cpp src/blocks.cpp src/block.cpp src/position.cpp src/game.cpp -I./src -I./include -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 
+g++ src/main.cpp src/grid.cpp src/colors.cpp src/blocks.cpp src/block.cpp src/position.cpp src/game.cpp -I./src -I./include -I./font -I./sounds -lraylib -lGL -lm -lpthread -ldl -lrt -lX11 
